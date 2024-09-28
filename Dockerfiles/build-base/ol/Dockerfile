@@ -1,5 +1,5 @@
 # syntax=docker/dockerfile:1
-FROM oraclelinux:8-slim
+FROM oraclelinux:9-slim
 
 ARG MAJOR_VERSION=5.0
 ARG ZBX_VERSION=${MAJOR_VERSION}.44
